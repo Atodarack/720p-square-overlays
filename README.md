@@ -354,8 +354,6 @@ Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
 
 # [Nintendo - Game Boy](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/gb)
 
-## Horizontal
-
 ![GB overlay](https://github.com/user-attachments/assets/376930cb-3521-4a5e-8bb3-eef00fc4133d)
 
 <details>
@@ -369,7 +367,7 @@ Quick Menu > On-Screen Overlay
     Display Overlay > ON
 
     Overlay Preset...
-      > Navigate to /RetroArch/overlays/720p-square and select wonderswancolor.cfg
+      > Navigate to /RetroArch/overlays/720p-square and select gb.cfg
 
     Overlay Opacity > 1.00
 ```
@@ -389,11 +387,11 @@ Main Menu > Settings > Video > Scaling
 
         Custom Aspect Ratio (X Position) > 0
 
-        Custom Aspect Ratio (Y Position) > 124
+        Custom Aspect Ratio (Y Position) > 25
 
         Custom Aspect Ratio (Width) > 720
 
-        Custom Aspect Ratio (Height) > 462
+        Custom Aspect Ratio (Height) > 648
 
     Viewport Anchor Bias X > 0.00
 
@@ -417,5 +415,125 @@ Quick Menu > Overrides > Save Content Directory Overrides
 Credit to [mugwomp93](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB) for the original version of this overlay.
 
 Color Palette using the Gambatte core `Quick Menu > Core Options > GB Colorization > Internal Palette > GB - Pocket`
+
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+
+# [Nintendo - Game Boy Color](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/gbc)
+
+![GBC overlay](https://github.com/user-attachments/assets/f0651c84-ec3e-4458-9dc9-688f67e73e6d)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select gbc.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 25
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 648
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Credit to [mugwomp93](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GBC) for the original version of this overlay.
+
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+
+# [Nintendo - Game Boy Advance](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/gba)
+
+![GBA overlay](https://github.com/user-attachments/assets/e777291c-88c7-4ee6-a259-d76f77cfcc53)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select gba.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Core provided
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.50
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Credit to [gonejack](https://github.com/gonejack/rgb30/blob/main/RGB30/RGB30_GBA_3x_HUI.png) for the original version of this overlay.
 
 Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
