@@ -5,7 +5,7 @@ Design goals: maximum use of screen space, no grids, and a consistent look acros
 - Consoles: sober and photorealistic.
 
 # Contents
-1. [Arcade - Capcom CPS](https://github.com/Atodarack/720p-square-overlays/tree/main#cps)
+1. [Arcade - Capcom CPS](#arcade---capcom-cps)
 2. [Bandai - WonderSwan Color]()
 3. [NEC - PC Engine]()
 4. [Nintendo - Game Boy]()
