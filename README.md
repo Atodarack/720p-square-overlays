@@ -537,3 +537,189 @@ Quick Menu > Overrides > Save Content Directory Overrides
 Credit to [gonejack](https://github.com/gonejack/rgb30/blob/main/RGB30/RGB30_GBA_3x_HUI.png) for the original version of this overlay.
 
 Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+
+# [Nintendo - Nintendo Entertainment System](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/nes)
+
+![NES overlay](https://github.com/user-attachments/assets/ecabb783-e99d-4359-be9c-e1fd0ef7ed65)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select nes.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 70
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 540
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+
+# [Nintendo - Super Nintendo Entertainment System](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/snes)
+
+![SNES overlay](https://github.com/user-attachments/assets/578c457e-d228-4d2a-8745-f364dea2c125)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select snes.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 70
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 540
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+
+# [Nintendo - Nintendo 64](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/n64)
+
+![N64 overlay](https://github.com/user-attachments/assets/1948157b-aa85-4973-9bfd-65fb6bec449b)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select n64.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 70
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 540
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+For this system you'll probably have to play with overscan settings to make your games fit properly, while using the Mupen64Plus-Next core do `Quick Menu > Core Options > GlideN64 > Overscan Offset` and adjust them however you want.
