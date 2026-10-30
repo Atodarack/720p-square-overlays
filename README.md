@@ -154,5 +154,129 @@ Main Menu > Settings > Video > Scaling
 ```
 Quick Menu > Overrides > Save Game Overrides
 ```
+</details>
+
+# [Bandai - WonderSwan Color](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/wonderswancolor)
+
+## Horizontal
+
+![WSC horizontal overlay](https://github.com/user-attachments/assets/80833c81-b424-439f-acd2-610b344dc7b5)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select wonderswancolor.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 124
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 462
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Since this configuration is saved for the whole content directory, vertical games need their own per-game configuration (see below). There are only a few of them, so it shouldn't be a hassle.
+
+## Vertical
+
+![WSC vertical overlay](https://github.com/user-attachments/assets/d4d2f4ff-3039-4f89-934a-db100b2bc37b)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select wonderswancolor_vertical.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 124
+
+        Custom Aspect Ratio (Y Position) > 0
+
+        Custom Aspect Ratio (Width) > 462
+
+        Custom Aspect Ratio (Height) > 720
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Game Overrides
+```
+
+</details>
+
 
 </details>
