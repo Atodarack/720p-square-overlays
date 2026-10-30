@@ -723,3 +723,191 @@ Quick Menu > Overrides > Save Content Directory Overrides
 ### Notes
 
 For this system you'll probably have to play with overscan settings to make your games fit properly, while using the Mupen64Plus-Next core do `Quick Menu > Core Options > GlideN64 > Overscan Offset` and adjust them however you want.
+
+# [Sega - Game Gear](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/gamegear)
+
+![GG overlay](https://github.com/user-attachments/assets/81fbf3c4-ccfa-4f90-a2e8-4231db879bfb)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select gamegear.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 25
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 648
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Credit to [mugwomp93](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GG) for the original version of this overlay.
+
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+
+# [Sega - Master System](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/mastersystem)
+
+![SMS overlay](https://github.com/user-attachments/assets/da47e6be-3bf7-4ae6-9e9b-66154624b637)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select mastersystem.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 70
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 540
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+
+# [Sega - Mega Drive](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/megadrive)
+
+![SMD overlay](https://github.com/user-attachments/assets/2f00d66e-acd9-40f9-bd20-407c7b816468)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select megadrive.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 70
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 540
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
