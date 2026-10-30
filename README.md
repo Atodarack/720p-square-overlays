@@ -99,7 +99,7 @@ Quick Menu > Overrides > Save Content Directory Overrides
 
 Since this configuration is saved for the whole content directory, vertical games need their own per-game configuration (see below). There are only a few of them, so it shouldn't be a hassle.
 
-Shader used in the preview `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
 
 ## Vertical
 
@@ -160,7 +160,7 @@ Quick Menu > Overrides > Save Game Overrides
 
 ### Notes
 
-Shader used in the preview `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
 
 # [Bandai - WonderSwan Color](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/wonderswancolor)
 
@@ -226,7 +226,7 @@ Quick Menu > Overrides > Save Content Directory Overrides
 
 Since this configuration is saved for the whole content directory, vertical games need their own per-game configuration (see below). There are only a few of them, so it shouldn't be a hassle.
 
-Shader used in the preview `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
 
 ## Vertical
 
@@ -288,7 +288,7 @@ Quick Menu > Overrides > Save Game Overrides
 
 ### Notes
 
-Shader used in the preview `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
 
 # [NEC - PC Engine](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/pcengine)
 
@@ -350,4 +350,72 @@ Quick Menu > Overrides > Save Content Directory Overrides
 
 ### Notes
 
-Shader used in the preview `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+Shader used `~/RetroArch/shaders/shaders_glsl/crt/zfast_crt.glslp`
+
+# [Nintendo - Game Boy](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/gb)
+
+## Horizontal
+
+![GB overlay](https://github.com/user-attachments/assets/376930cb-3521-4a5e-8bb3-eef00fc4133d)
+
+<details>
+  <summary>Click for configuration</summary>
+
+### 1. Apply the Overlay
+
+```
+Quick Menu > On-Screen Overlay
+
+    Display Overlay > ON
+
+    Overlay Preset...
+      > Navigate to /RetroArch/overlays/720p-square and select wonderswancolor.cfg
+
+    Overlay Opacity > 1.00
+```
+
+### 2. Scaling Settings
+
+```
+Main Menu > Settings > Video > Scaling
+
+    Integer Scale > OFF
+
+    Integer Scale Axis > (shouldn't matter)
+
+    Integer Scale Scaling > (shouldn't matter)
+
+    Aspect Ratio > Custom
+
+        Custom Aspect Ratio (X Position) > 0
+
+        Custom Aspect Ratio (Y Position) > 124
+
+        Custom Aspect Ratio (Width) > 720
+
+        Custom Aspect Ratio (Height) > 462
+
+    Viewport Anchor Bias X > 0.00
+
+    Viewport Anchor Bias Y > 0.00
+
+    Bilinear Filtering > OFF
+
+    Crop Overscan > ON
+```
+
+### 3. Save an Override
+
+```
+Quick Menu > Overrides > Save Content Directory Overrides
+```
+
+</details>
+
+### Notes
+
+Credit to [mugwomp93](https://github.com/mugwomp93/720x720_overlays/tree/main/720x720%20overlays/GB) for the original version of this overlay.
+
+Color Palette using the Gambatte core `Quick Menu > Core Options > GB Colorization > Internal Palette > GB - Pocket`
+
+Shader used `~/RetroArch/shaders/shaders_glsl/handheld/lcd3x.glslp`
