@@ -476,7 +476,7 @@ Quick Menu > Overrides > Save Content Directory Overrides
 
 ## [Nintendo - Super Nintendo Entertainment System](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/snes)
 
-![SNES overlay](https://github.com/user-attachments/assets/d1aa9cb1-28bd-4be1-9b2b-b7f37dc97459)
+![SNES overlay](https://github.com/user-attachments/assets/994cb08a-afdb-434c-a287-dc6ba6416109)
 
 <details>
   <summary>Show RetroArch configuration</summary>
