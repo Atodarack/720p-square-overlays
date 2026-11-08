@@ -190,7 +190,7 @@ Because this override applies to the entire content directory, vertical games ne
 
 ### Vertical
 
-![WSC vertical overlay](https://github.com/user-attachments/assets/d4d2f4ff-3039-4f89-934a-db100b2bc37b)
+![WSC vertical overlay](https://github.com/user-attachments/assets/2c8da5a3-7421-4730-a9b4-e22dc459f938)
 
 <details>
   <summary>Show RetroArch configuration</summary>
@@ -476,7 +476,7 @@ Quick Menu > Overrides > Save Content Directory Overrides
 
 ## [Nintendo - Super Nintendo Entertainment System](https://github.com/Atodarack/720p-square-overlays/tree/main/overlays/snes)
 
-![SNES overlay](https://github.com/user-attachments/assets/578c457e-d228-4d2a-8745-f364dea2c125)
+![SNES overlay](https://github.com/user-attachments/assets/d1aa9cb1-28bd-4be1-9b2b-b7f37dc97459)
 
 <details>
   <summary>Show RetroArch configuration</summary>
