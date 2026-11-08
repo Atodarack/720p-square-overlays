@@ -213,7 +213,7 @@ Main Menu > Settings > Video > Scaling
     Integer Scale Axis > Any (ignored when Integer Scale is OFF)
     Integer Scale Scaling > Any (ignored when Integer Scale is OFF)
     Aspect Ratio > Custom
-        Custom Aspect Ratio (X Position) > 124
+        Custom Aspect Ratio (X Position) > 129
         Custom Aspect Ratio (Y Position) > 0
         Custom Aspect Ratio (Width) > 462
         Custom Aspect Ratio (Height) > 720
